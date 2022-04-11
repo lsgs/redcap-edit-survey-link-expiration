@@ -1,0 +1,17 @@
+{
+    "name": "Edit Participant Survey Expiration",
+    "description": "The Participant List page facilitates editing survey link expiration. This module replicates this functionality on the survey's data entry form.<br>The ability to edit survey expiry from the data entry form is particularly useful in projects with a large number of records, where finding a specific record on the Participant List page is problematic.",
+    "namespace": "MCRI\\EditParticipantSurveyExpiration",
+    "authors": [
+        {
+            "name": "Luke Stevens",
+            "email": "luke.stevens@mcri.edu.au",
+            "institution": "Murdoch Children's Research Institute"
+        }
+    ],
+    "framework-version": 8,
+    "compatibility": { "redcap-version-min": "11.1.1" },
+    "permissions": [ "redcap_data_entry_form_top" ],
+    "system-settings": [ ],
+    "project-settings": [ ]
+}
